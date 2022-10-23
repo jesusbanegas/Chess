@@ -1,0 +1,22 @@
+.MainBoard{
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    background-color: white;
+    border: black 4px solid;
+}
+
+.MainBoard *{
+    text-align: center;
+    font-size: 40px;
+    border: black thin solid;
+}
+
+.ColorSquare{
+    background-color: gray;
+}

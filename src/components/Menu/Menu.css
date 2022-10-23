@@ -1,0 +1,70 @@
+.GeneralMenuDiv{
+    background-color: rgb(99, 66, 32);
+    border: black 10px solid;
+    border-radius: 20px;
+    height: 500px;
+    width: 700px;
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.ReadyToPlayChess{
+    margin-left: 190px;
+    text-decoration: underline;
+    color: white;
+}
+
+.SecMenuDiv{
+    background-color: rgb(193, 134, 97);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.LiMenu{
+    margin-left: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.SelectMenu{
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 300px;
+    border-radius: 10px;
+    width: 120px;
+    background-color: rgb(99, 66, 32);
+    color: white;
+}
+
+.MenuTime{
+    margin-right: 32px;
+}
+
+.PlayerTwoSelection{
+    margin-left: 335px;
+}
+
+.StartMatchButton{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+    border: black 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(193, 134, 97);
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.StartMatchButton:hover{
+    background-color: rgb(152, 98, 43);
+}
+
+.StartMatchButton:active{
+    background-color: rgb(114, 73, 32);
+}
